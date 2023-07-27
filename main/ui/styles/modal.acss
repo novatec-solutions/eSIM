@@ -1,0 +1,68 @@
+.info-modal {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.am-modal-show {
+  z-index: 1;
+}
+.am-modal-mask{
+  /* background-color: #c8c8c8 !important; */
+  background-color: #00000033 !important;
+}
+
+.info-modal .am-modal-content{
+  padding: 16px;
+}
+
+.info-modal .modal-content  .modal-image image{
+  height: 30px;
+  width: 30px;
+  margin-bottom: 14px;
+} 
+
+.info-modal .modal-content .modal-title {
+  color: #404040;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+
+.info-modal .modal-content .modal-text {
+  color: #404040;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  margin-bottom: 24px;
+}
+
+.info-modal .modal-actions {
+  display: flex;
+  justify-content: center;
+}
+
+.info-modal .modal-actions button {
+  border-radius: 26px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 40px;
+  height: 40px;
+  min-width: 162px;
+}
+
+.info-modal .modal-actions button.primary-color-outline {
+  line-height: 38px;
+  height: 38px;
+}
+
+.info-modal .modal-actions.two-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.info-modal .modal-actions.two-actions button {
+  border: 0;
+  flex: 1;
+}

@@ -1,0 +1,259 @@
+:root {
+  /*Proposal for variable names and respective sizes */
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-base: 16px;
+  --text-lg: 18px;
+  --text-xl: 20px;
+  --text-2xl: 24px;
+  --text-3xl: 30px;
+  --text-4xl: 36px;
+  --text-5xl: 40px;
+
+  /*Gap sizes for flexbox and grid items*/
+
+  --gap-0: 0px;
+  --gap-px: 1px;
+  --gap-1: 4px;
+  --gap-2: 8px;
+  --gap-3: 12px;
+  --gap-4: 16px;
+  --gap-5: 20px;
+  --gap-6: 24px;
+  --gap-7: 28px;
+  --gap-8: 32px;
+  --gap-9: 36px;
+  --gap-10: 40px;
+
+  /* Proposal for padding sizes*/
+
+  /*Padding */
+
+  --p-0: 0px;
+  --p-px: 1px;
+  --p-1: 4px;
+  --p-2: 8px;
+  --p-3: 12px;
+  --p-4: 16px;
+  --p-5: 20px;
+  --p-6: 24px;
+  --p-7: 28px;
+  --p-8: 32px;
+  --p-9: 36px;
+  --p-10: 40px;
+
+
+
+  /*Padding top*/
+
+  --pt-0: 0px;
+  --pt-px: 1px;
+  --pt-1: 4px;
+  --pt-2: 8px;
+  --pt-3: 12px;
+  --pt-4: 16px;
+  --pt-5: 20px;
+  --pt-6: 24px;
+  --pt-7: 28px;
+  --pt-8: 32px;
+  --pt-9: 36px;
+  --pt-10: 40px;
+
+  /*Padding bottom*/
+
+  --pb-0: 0px;
+  --pb-px: 1px;
+  --pb-1: 4px;
+  --pb-2: 8px;
+  --pb-3: 12px;
+  --pb-4: 16px;
+  --pb-5: 20px;
+  --pb-6: 24px;
+  --pb-7: 28px;
+  --pb-8: 32px;
+  --pb-9: 36px;
+  --pb-10: 40px;
+
+  /*Padding left*/
+
+  --pl-0: 0px;
+  --pl-px: 1px;
+  --pl-1: 4px;
+  --pl-2: 8px;
+  --pl-3: 12px;
+  --pl-4: 16px;
+  --pl-5: 20px;
+  --pl-6: 24px;
+  --pl-7: 28px;
+  --pl-8: 32px;
+  --pl-9: 36px;
+  --pl-10: 40px;
+
+  /*Padding right*/
+
+  --pr-0: 0px;
+  --pr-px: 1px;
+  --pr-1: 4px;
+  --pr-2: 8px;
+  --pr-3: 12px;
+  --pr-4: 16px;
+  --pr-5: 20px;
+  --pr-6: 24px;
+  --pr-7: 28px;
+  --pr-8: 32px;
+  --pr-9: 36px;
+  --pr-10: 40px;
+
+  /* Padding x*/
+
+  --px-0: 0px 0px 0px 0px;
+  --px-1: 0px 4px 0px 4px;
+  --px-2: 0px 8px 0px 8px;
+  --px-3: 0px 12px 0px 12px;
+  --px-4: 0px 16px 0px 16px;
+  --px-5: 0px 20px 0px 20px;
+  --px-6: 0px 24px 0px 24px;
+  --px-7: 0px 28px 0px 28px;
+  --px-8: 0px 32px 0px 32px;
+  --px-9: 0px 36px 0px 36px;
+  --px-10: 0px 40px 0px 40px;
+  
+  /* Padding Y */
+
+  --py-0: 0px 0px 0px 0px;
+  --py-1: 4px 0px 4px 0px;
+  --py-2: 8px 0px 8px 0px;
+  --py-3: 12px 0px 12px 0px;
+  --py-4: 16px 0px 16px 0px;
+  --py-5: 20px 0px 20px 0px;
+  --py-6: 24px 0px 24px 0px;
+  --py-7: 28px 0px 28px 0px;
+  --py-8: 32px 0px 32px 0px;
+  --py-9: 36px 0px 36px 0px;
+  --py-10: 40px 0px 40px 0px;
+
+
+  /* Proposal for Margin sizes*/
+
+    /*Margin */
+
+    --m-0: 0px;
+    --m-px: 1px;
+    --m-1: 4px;
+    --m-2: 8px;
+    --m-3: 12px;
+    --m-4: 16px;
+    --m-5: 20px;
+    --m-6: 24px;
+    --m-7: 28px;
+    --m-8: 32px;
+    --m-9: 36px;
+    --m-10: 40px;
+  
+
+  /*Margin top*/
+
+  --mt-0: 0px;
+  --mt-px: 1px;
+  --mt-1: 4px;
+  --mt-2: 8px;
+  --mt-3: 12px;
+  --mt-4: 16px;
+  --mt-5: 20px;
+  --mt-6: 24px;
+  --mt-7: 28px;
+  --mt-8: 32px;
+  --mt-9: 36px;
+  --mt-10: 40px;
+
+  /*Margin bottom*/
+
+  --mb-0: 0px;
+  --mb-px: 1px;
+  --mb-1: 4px;
+  --mb-2: 8px;
+  --mb-3: 12px;
+  --mb-4: 16px;
+  --mb-5: 20px;
+  --mb-6: 24px;
+  --mb-7: 28px;
+  --mb-8: 32px;
+  --mb-9: 36px;
+  --mb-10: 40px;
+
+  /*Margin left*/
+
+  --ml-0: 0px;
+  --ml-px: 1px;
+  --ml-1: 4px;
+  --ml-2: 8px;
+  --ml-3: 12px;
+  --ml-4: 16px;
+  --ml-5: 20px;
+  --ml-6: 24px;
+  --ml-7: 28px;
+  --ml-8: 32px;
+  --ml-9: 36px;
+  --ml-10: 40px;
+
+  /*Margin right*/
+
+  --mr-0: 0px;
+  --mr-px: 1px;
+  --mr-1: 4px;
+  --mr-2: 8px;
+  --mr-3: 12px;
+  --mr-4: 16px;
+  --mr-5: 20px;
+  --mr-6: 24px;
+  --mr-7: 28px;
+  --mr-8: 32px;
+  --mr-9: 36px;
+  --mr-10: 40px;
+
+  /* Margin x*/
+
+  --mx-0: 0px 0px 0px 0px;
+  --mx-1: 0px 4px 0px 4px;
+  --mx-2: 0px 8px 0px 8px;
+  --mx-3: 0px 12px 0px 12px;
+  --mx-4: 0px 16px 0px 16px;
+  --mx-5: 0px 20px 0px 20px;
+  --mx-6: 0px 24px 0px 24px;
+  --mx-7: 0px 28px 0px 28px;
+  --mx-8: 0px 32px 0px 32px;
+  --mx-9: 0px 36px 0px 36px;
+  --mx-10: 0px 40px 0px 40px;
+  
+  /* Margin Y */
+
+  --my-0: 0px 0px 0px 0px;
+  --my-1: 4px 0px 4px 0px;
+  --my-2: 8px 0px 8px 0px;
+  --my-3: 12px 0px 12px 0px;
+  --my-4: 16px 0px 16px 0px;
+  --my-5: 20px 0px 20px 0px;
+  --my-6: 24px 0px 24px 0px;
+  --my-7: 28px 0px 28px 0px;
+  --my-8: 32px 0px 32px 0px;
+  --my-9: 36px 0px 36px 0px;
+  --my-10: 40px 0px 40px 0px;
+
+
+
+  --box-shadow-card: 3px 2px 3px #2F2F6026;
+  --text-color-card: #187385;
+  --text-color-black: #2D2D2D;
+  --color-text-primary: #404040;
+  --color-text-secondary: #1F97AE;
+  --bg-color-primary: #DA291C;
+  --border-color-primary: 1px solid #5e5e5e;
+  --border-radius: 8px;
+  --button-border-radius: 26px;
+  --border-button-unfilled: 1px solid #da291c;
+  --box-shadow-banner-info: 0px 0px 4px #00000029;
+}
+
+.text-center {
+  text-align: center;
+}

@@ -1,0 +1,25 @@
+.header-with-number {
+  display: flex;
+  flex-direction: column;
+  gap: 8rpx;
+  margin: 48rpx 0;
+  text-align: center;
+}
+
+.header-with-number .header-with-number-title {
+  color: var(--base-gray);
+  font-size: 32rpx;
+  line-height: 40rpx;
+  font-family: 'AMX';
+  font-weight: bold;
+  letter-spacing: 0px
+}
+
+.header-with-number .phone-number {
+  color: var(--base-blue);
+  font-size: 32rpx;
+  font-family: 'AMX';
+  line-height: 40rpx;
+  font-weight: bold;
+  letter-spacing: 0px
+}

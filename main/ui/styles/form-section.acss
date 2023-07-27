@@ -1,0 +1,59 @@
+
+
+.form-section-title {
+  color: #404040;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 17px;
+}
+
+.form-section-title.lg {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 27px;
+}
+
+.text-terms {
+  color: #797979;
+  margin: 10px 0 20px;
+}
+
+.form-section-title.policy {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  text-align: center;
+}
+
+.form-control input{
+  border: 1px solid #5E5E5E;
+  border-radius: 8px; 
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 19px;
+  height: 40px;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+.form-control textarea{
+  border: 1px solid #5E5E5E;
+  border-radius: 8px; 
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 19px;
+  min-height: 100px;
+  padding: 17px 20px;
+  width: 100%;
+}
+
+.form-control .form-control-placeholder{
+  color: #B3B3B3;
+}
+
+.form-control .form-control-label{
+  color: #404040;
+  font-size: 14px;
+  line-height: 16px;
+}

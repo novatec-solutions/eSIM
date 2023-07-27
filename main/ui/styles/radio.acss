@@ -1,0 +1,70 @@
+.radio-group.primary {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.radio-group.around {
+  display: flex !important;
+  justify-content: center;
+  gap: 64rpx;
+}
+
+.radio-group.primary label{
+  align-items: center;
+  color: #404040;
+  display: flex;
+  font-size: 28rpx;
+  gap: 16rpx;
+}
+
+.radio-group.primary label.sm{
+  font-size: 24rpx;
+}
+
+.radio-group.primary label radio, .radio-group.primary label checkbox{
+  display: none;
+}
+
+.radio-group.primary label .radio-figure{
+  align-items: center;
+  border: 2rpx solid #187385;
+  border-radius: 100%;
+  display: flex;
+  height: 44rpx;
+  min-height: 44rpx;
+  justify-content: center;
+  width: 44rpx;
+  min-width: 44rpx;
+}
+
+.radio-group.primary label .radio-figure view {
+  background-color: #187385;
+  border-radius: 100%;
+  height: 0px;
+  /* transition: all ease .2s; */
+  width: 0px;
+}
+
+.radio-group.primary label .radio-figure.checked view {
+  height: 28rpx;
+  min-height: 28rpx;
+  min-width: 28rpx;
+  width: 28rpx;
+}
+
+.radio-group label.check-style .radio-figure image {
+  height: 0px;
+  width: 0px;
+}
+
+.radio-group label.check-style .radio-figure.checked {
+  background-color: #187385;
+}
+
+.radio-group label.check-style .radio-figure.checked image {
+  height: 28rpx;
+  width: 28rpx;
+  transform: rotate(-5deg) translateX(-1rpx);
+}
+
+

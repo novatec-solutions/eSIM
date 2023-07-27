@@ -1,0 +1,22 @@
+<view class="main">
+  <form class="form-login">
+
+    <input class="form-login__email" placeholder="Ingresa tu correo electrónico" type="text" onInput="onEmailInput" />
+    <input class="form-login__password" placeholder="Contraseña" password  onInput="onPasswordInput" />
+  
+    <button class="form-login__signUpBtn" size="default" onTap="signUp">Iniciar sesión</button>
+  
+  </form>
+
+
+  <loader-splash show="{{isLoading}}"></loader-splash>
+
+  <!-- Fix error Modal Custom, problems with state -->
+  <modal-error 
+    topImage="/main/ui/assets/icons/error-svgrepo-com.svg" 
+    isOpen={{isOpenModal}} 
+    title="{{titleMessage}}" 
+    content="{{contentMessage}}" 
+    footer="OK"></modal-error>
+</view>
+

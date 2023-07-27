@@ -1,0 +1,4 @@
+<view class="header-with-number">
+  <text class="header-with-number-title">{{title}}</text>
+  <text class="phone-number">{{number}}</text>
+</view>

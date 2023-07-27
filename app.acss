@@ -1,0 +1,123 @@
+@import '/main/ui/styles/layout.acss';
+@import '/main/ui/styles/colors.acss';
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto';
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('main/ui/main/ui/assets/fonts/Roboto-Medium.woff2') format('woff2'),
+      url('main/ui/assets/fonts/Roboto-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('main/ui/assets/fonts/Roboto-Light.woff2') format('woff2'),
+      url('main/ui/assets/fonts/Roboto-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('main/ui/assets/fonts/Roboto-Regular.woff2') format('woff2'),
+      url('main/ui/assets/fonts/Roboto-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('main/ui/assets/fonts/Roboto-Bold.woff2') format('woff2'),
+      url('main/ui/assets/fonts/Roboto-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AMX';
+  src: url('main/ui/assets/fonts/AMX-Light.woff2') format('woff2'),
+      url('main/ui/assets/fonts/AMX-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AMX';
+  src: url('main/ui/assets/fonts/AMX-Regular.woff2') format('woff2'),
+      url('main/ui/assets/fonts/AMX-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AMX';
+  src: url('main/ui/assets/fonts/AMX-Medium.woff2') format('woff2'),
+      url('main/ui/assets/fonts/AMX-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AMX';
+  src: url('main/ui/assets/fonts/AMX-Bold.woff2') format('woff2'),
+      url('main/ui/assets/fonts/AMX-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+:root {
+  --amarillo-base-100-ffad0d: #FFAD0D;
+  --rojo-base-100-e03224: #E03224;
+  --informacion-1f97ae: #1F97AE;
+  --f5f5fc-bg-dashboard: #F5F5FC;
+  --azul-base-100-187385: #187385;
+  --negro-1f1f1f: #1F1F1F;
+  --bg-button-disabled: #0000004D;
+  --c50-999999: #999999;
+  --c60-808080: #808080;
+  --c70-5e5e5e: #5E5E5E;
+  --c20-cccccc: #CCCCCC;
+  --rojo-base-boton-da291c: #DA291C;
+  --azul-120-10505c: #10505C;
+  --c80-404040: #404040;
+  --sombreados-2f2f60: #2F2F6029;
+  --fdfdff-tarj-fondo-f5f5fc: #FDFDFF;
+  --ffffff-tarj-fondo-fdfdff: #FFFFFF;
+  --unnamed-font-family-roboto: Roboto;
+  --unnamed-font-family-amx: Arial;
+  --unnamed-font-style-normal: normal;
+  --unnamed-font-weight-normal: normal;
+  --unnamed-font-weight-bold: bold;
+  --unnamed-font-weight-medium: medium;
+  --unnamed-font-size-14: 14px;
+  --unnamed-font-size-16: 16px;
+  --unnamed-font-size-18: 18px;
+  --unnamed-font-size-20: 20px;
+  --unnamed-font-size-24: 24px;
+  --unnamed-character-spacing-0: 0px;
+  --unnamed-line-spacing-16: 16px;
+  --unnamed-line-spacing-17: 17px;
+  --unnamed-line-spacing-20: 20px;
+  --unnamed-line-spacing-27: 27px;
+  --unnamed-line-spacing-30: 30px;
+  --unnamed-line-spacing-36: 36px;
+  --unnamed-decoration-underline: underline;
+}
+

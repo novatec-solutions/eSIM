@@ -1,0 +1,27 @@
+.select-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.select-buttons button{
+  align-items: center;
+  background-color: #F5F5FC;
+  border-radius: 15px;
+  border: 1px solid #0BB07B;
+  color: #0BB07B;
+  display: flex;
+  font-size: 12px;
+  font-weight: 500;
+  height: 30px;
+  gap: 20px;
+  justify-content: center;
+  line-height: 30px;
+  transition: all ease .2s;
+  width: 130px;
+}
+
+.select-buttons button.active{
+  background-color: #0BB07B;
+  color: #F5F5FC;
+}

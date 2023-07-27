@@ -1,0 +1,6 @@
+:root {
+  /*Proposal for variable names and respective sizes */
+  --base-blue: #187385;
+  --base-gray: #404040;
+
+}

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "modal-error": "/main/ui/components/informative/modal/modal",
+    "loader-splash": "/main/ui/components/informative/loader-splash/loader-splash"
+  }
+}

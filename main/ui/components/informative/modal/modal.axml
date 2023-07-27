@@ -1,0 +1,17 @@
+<modal
+  class="info-modal"
+  show="{{atts.show}}"
+>
+<slot>
+    <view class="modal-content">
+      <view class="modal-image">
+        <image mode="scaleToFill" src="/main/ui/assets/icons/alert-{{atts.icon || 'info'}}.svg" />
+      </view>
+      <view class="modal-title">{{atts.title}}</view>
+      <view class="modal-text">{{atts.text}}</view>
+    </view>
+    <view class="modal-actions">
+      <button size="default" class="primary-color" onTap="closeModal">{{atts.textButton || 'Aceptar'}}</button>
+    </view>
+  </slot>
+</modal>

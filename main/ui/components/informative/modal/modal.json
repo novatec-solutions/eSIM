@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "modal": "/node_modules/mini-ali-ui/es/modal/index"
+  },
+  "styleIsolation": "shared"
+}

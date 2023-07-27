@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "modal": "/main/ui/components/shared/modal/modal",
+    "loader-splash": "/main/ui/components/informative/loader-splash/loader-splash"
+  },
+  "styleIsolation": "apply-shared"
+}

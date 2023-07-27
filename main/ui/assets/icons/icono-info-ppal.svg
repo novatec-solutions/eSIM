@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <g id="icono-info-ppal" transform="translate(0)">
+    <path id="Trazado_28115" data-name="Trazado 28115" d="M872.994,313.068a11,11,0,1,1,11-11,11,11,0,0,1-11,11m0-20a9,9,0,1,0,9,9,9,9,0,0,0-9-9" transform="translate(-861.994 -291.068)" fill="#1f97ae"/>
+    <path id="Trazado_28116" data-name="Trazado 28116" d="M872.994,307.068a1,1,0,0,1-1-1v-4a1,1,0,0,1,2,0v4a1,1,0,0,1-1,1" transform="translate(-861.994 -291.068)" fill="#1f97ae"/>
+    <path id="Trazado_28117" data-name="Trazado 28117" d="M873,299.068a1,1,0,1,1-.01-2H873a1,1,0,0,1,0,2" transform="translate(-861.994 -291.068)" fill="#1f97ae"/>
+  </g>
+</svg>

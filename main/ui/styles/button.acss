@@ -1,0 +1,41 @@
+button.primary-color {
+  background-color: #DA291C;
+  border-radius: 6px;
+  color: white;
+  font-weight: 600;
+}
+
+button.primary-color-outline {
+  background-color: #fff;
+  border: 1px solid #DA291C !important;
+  border-radius: 6px;
+  color: #DA291C;
+  font-weight: 600;
+}
+
+button.grey-color {
+  background-color: #969696;
+  border-radius: 6px;
+  color: white;
+  font-weight: 600;
+}
+
+.submitFormActions {
+  display: flex;
+  justify-content: center;
+  height: max-content;
+}
+
+button.submit {
+  border-radius: 26px;
+  font-weight: 400;
+  width: 247px;
+}
+
+button.invalid {
+  background-color: var(--bg-button-disabled);
+}
+
+button.submit.disabled {
+  background-color: #0000004D;
+}

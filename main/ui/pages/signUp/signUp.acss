@@ -1,0 +1,44 @@
+
+:root {
+  --color-text-primary: #404040;
+  --bg-color-primary: #DA291C;
+  --border-color-primary: 1px solid #5e5e5e;
+  --border-radius: 8px;
+  --button-border-radius: 26px;
+}
+
+page {
+  flex-direction: column;
+  display: flex;
+}
+.main {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+
+
+.main .form-login {
+  font-family: 'Roboto';
+  color: var(--color-text-primary);
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-3);
+}
+
+.main .form-login .form-login__email,
+.main .form-login .form-login__password
+{
+  padding: var(--p-2) var(--p-5);
+  border-radius: var(--border-radius);
+  border: var(--border-color-primary);
+}
+
+.main .form-login .form-login__signUpBtn {
+  color: #fff;
+  background-color: var(--bg-color-primary);
+  border-radius: var(--button-border-radius);
+}

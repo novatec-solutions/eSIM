@@ -1,0 +1,17 @@
+<view class="splash-loader-wrapper">
+  <modal
+    class="splash-loader"
+    show="{{show}}"
+    animation="{{false}}"
+  >
+    <view class="loader">
+      <image src="/main/ui/assets/icons/loader-claro.gif" mode="widthFix"/>
+      <view>
+        <text class="texto-gif">Espere Un Momento</text>
+      </view>
+    </view>
+    
+  </modal>
+</view>
+
+

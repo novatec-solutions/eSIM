@@ -1,0 +1,8 @@
+<svg id="iconos_notificacion" data-name="iconos notificacion" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="icono-check-circle-ppal">
+    <g id="Grupo_18085" data-name="Grupo 18085">
+      <path id="Trazado_27954" data-name="Trazado 27954" d="M64.567,125h-.01a15,15,0,0,1,.01-30h.007a14.9,14.9,0,0,1,6.095,1.3A1.363,1.363,0,1,1,69.6,98.807l-.041-.018a12.272,12.272,0,1,0-5,23.483h.008A12.27,12.27,0,0,0,76.842,110v-1.253a1.363,1.363,0,1,1,2.726,0V110a15,15,0,0,1-15,14.992" transform="translate(-49.568 -95)" fill="#33d09b"/>
+      <path id="Trazado_27955" data-name="Trazado 27955" d="M62.018,113.383a1.359,1.359,0,0,1-.964-.4l-4.09-4.091a1.363,1.363,0,0,1,1.928-1.928l3.126,3.125L74.685,97.408a1.364,1.364,0,0,1,1.93,1.927l-13.632,13.65a1.362,1.362,0,0,1-.965.4" transform="translate(-47.021 -94.27)" fill="#33d09b"/>
+    </g>
+  </g>
+</svg>

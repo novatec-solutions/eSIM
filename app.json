@@ -1,0 +1,11 @@
+{
+  "subPackageBuildType": "shared",
+  "pages": [
+    "main/ui/pages/signUp/signUp",
+    "main/ui/pages/manage/manage",
+    "main/ui/pages/example/example"
+  ],
+  "window": {
+    "titleBarColor": "FFFFFF"
+  }
+}

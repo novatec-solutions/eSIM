@@ -1,0 +1,39 @@
+.select {
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid #5E5E5E;
+  border-radius: 8px;
+  display: flex;
+  height: 40px;
+  position: relative;
+}
+
+.select .arrow {
+  height: 16px;
+  right: 16px;
+  position: absolute;
+  transform: rotate(90deg);
+  width: 16px;
+  z-index: 0;
+}
+
+.select view.picker {
+  align-items: center;
+  color: #404040;
+  display: flex;
+  font-size: 14px;
+  height: 40px;
+  line-height: 16px;
+  padding: 0 14px 0 20px;
+  width: 100%;
+  z-index: 1;
+}
+
+
+.select.disabled {
+  background-color: #E6E6E6;
+}
+
+.select.disabled  view.picker {
+  color: #B3B3B3;
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="Toggle" transform="translate(1 1)">
+    <path id="BG" d="M15,0A15,15,0,1,1,0,15,15,15,0,0,1,15,0Z" fill="none" stroke="#ffad0d" stroke-width="2"/>
+    <text id="number" transform="translate(15.5 20.5)" fill="#ffad0d" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-4" y="0">1</tspan></text>
+  </g>
+</svg>

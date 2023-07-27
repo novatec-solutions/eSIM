@@ -1,0 +1,45 @@
+<view class="page-manage">
+  <view class="manage">
+    <text class="title">Selecciona</text>
+    <view class="options">
+      <view onTap="selectTab" data-tab="3" class="button {{typeAccountTab === '3' ? 'select' : ''}}">Postpago</view>
+      <view onTap="selectTab" data-tab="2" class="button {{typeAccountTab === '2' ? 'select' : ''}}">Prepago</view>
+    </view>
+    <view class="button-detail-list">
+      <view a:if="{{ typeAccountTab === '2' }}" a:for="{{ accountsType2 }}" class="button-detail" data-item="{{item}}" onTap="setAccountSelect">
+        <text class="text">{{item.alias}}</text>
+        <view class="detail">
+          <text class="text">Ver detalle</text>
+          <image class="image" mode="scaleToFill" src="/main/ui/assets/icons/icono-chevron-rigth-ppal.png" />
+        </view>
+      </view>
+      <view a:if="{{ typeAccountTab === '3' }}" class="button-detail" a:for="{{ accountsType3 }}" data-item="{{item}}" onTap="setAccountSelect">
+        <text class="text">{{item.alias}}</text>
+        <view class="detail">
+          <text class="text">Ver detalle</text>
+          <image class="image" mode="scaleToFill" src="/main/ui/assets/icons/icono-chevron-rigth-ppal.png" />
+        </view>
+      </view>
+    </view>
+  </view>
+
+
+  <button size="default" onTap="startClearStorage" class="close_bttn" type="primary">
+    <image mode="aspectFit" src="/main/ui/assets/icons/logout.png" />
+  </button>
+</view>
+
+<loader-splash show="{{isLoading}}"></loader-splash>
+
+<modal atts="{{{show: modalError}}}">
+  <view class="modal-content">
+    <view class="modal-image">
+      <image mode="scaleToFill" src="/main/ui/assets/icons/alert-error.svg" />
+    </view>
+    <view class="modal-title">Error</view>
+    <view class="modal-text">{{modalErrorMessage}}</view>
+  </view>
+  <view class="modal-actions">
+    <button onTap="closeModalError" size="default" class="primary-color">Aceptar</button>
+  </view>
+</modal>
